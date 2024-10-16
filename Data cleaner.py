@@ -86,3 +86,4 @@ def process_files(input_folder, output_folder):
 input_folder = 'Raw data\\Conservative'
 output_folder = 'Cleaned data\\Conservative'
 process_files(input_folder, output_folder)
+process_files("Raw data\Aggressive", "Cleaned data\Agressive")

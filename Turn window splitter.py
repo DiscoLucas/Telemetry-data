@@ -82,3 +82,9 @@ input_folder = "Cleaned data/Conservative"
 output_folder = 'Turn data/Conservative'
 os.makedirs(output_folder, exist_ok=True)
 process_files(input_folder, output_folder)
+
+# quick hack to process the aggressive data
+input_folder = "Cleaned data/Agressive"
+output_folder = 'Turn data/Agressive'
+os.makedirs(output_folder, exist_ok=True)
+process_files(input_folder, output_folder)
