@@ -14,20 +14,3 @@ def find_new_json_files(folder_path):
                 new_files.append(os.path.join(root, file))
 
     return new_files
-
-import json
-
-# Load the JSON data
-with open('Turn data\Conservative\session\\turn_1_lapdistance_300.json', 'r') as file:
-    data = json.load(file)
-
-# Extract LapTimeSeconds from DataPoints
-lap_times = [point['LapTimeSeconds'] for point in data['DataPoints']]
-
-# Calculate differences between consecutive LapTimeSeconds
-time_diffs = [t2 - t1 for t1, t2 in zip(lap_times[:-1], lap_times[1:])]
-
-# Compute the average time difference
-average_time_diff = sum(time_diffs) / len(time_diffs)
-
-print(f"Average time between data points: {average_time_diff} seconds")

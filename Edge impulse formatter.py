@@ -1,5 +1,6 @@
 import json
 import time
+import os
 
 # Example device information (you can customize this based on your actual device)
 device_info = {
@@ -23,7 +24,7 @@ def parse_cleaned_json_to_format(cleaned_file, output_file):
             "alg": "none",
             "iat": int(time.time())  # Use current timestamp in seconds since epoch
         },
-        "signature": "b0ee0572a1984b93b6bc56e6576e2cbbd6bccd65d0c356e26b31bbc9a48210c6",  # Example signature
+        "signature": "0000000000000000000000000000000000000000000000000000000000000000",  # Example signature
         "payload": {
             "device_name": device_info["device_name"],
             "device_type": device_info["device_type"],
@@ -64,9 +65,27 @@ def parse_cleaned_json_to_format(cleaned_file, output_file):
     with open(output_file, 'w') as f:
         json.dump(transformed_data, f, indent=4)
 
-# Example usage
-#cleaned_file = 'Cleaned data\Conservative\\24-10-15-19-20-Red Bull Ring-Practice-e91d14a8-9737-4b33-be6e-4759dceeb036\\Lucas Mitchell-1--e8608838-f6a9-4c0a-a6b8-5cec6c42fb4f_cleaned.json'
-cleaned_file = "Turn data\Conservative\session\\turn_1_lapdistance_300.json"
-output_file = 'transformed_data.json'
+def process_turn_files(input_folder, output_folder):
+    # Iterate over all turn files in the input folder
+    for root, _, files in os.walk(input_folder):
+        for file in files:
+            if file.endswith(".json"):
+                # Full path of the cleaned JSON file
+                cleaned_file = os.path.join(root, file)
+                
+                # Create corresponding output path
+                relative_path = os.path.relpath(cleaned_file, input_folder)
+                output_file = os.path.join(output_folder, relative_path)
 
-parse_cleaned_json_to_format(cleaned_file, output_file)
+                # Ensure output directory exists
+                os.makedirs(os.path.dirname(output_file), exist_ok=True)
+
+                # Call the parsing function for each file
+                parse_cleaned_json_to_format(cleaned_file, output_file)
+                print(f"Processed and saved: {output_file}")
+
+# Example usage
+input_folder = "Turn data/Conservative"
+output_folder = 'Formatted data/Conservative'
+os.makedirs(output_folder, exist_ok=True)
+process_turn_files(input_folder, output_folder)
