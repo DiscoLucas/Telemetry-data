@@ -1,0 +1,1165 @@
+{
+  "LapSummary": {
+    "Id": "a48fb1a4-2427-4f67-b03b-8ff81f77ad55",
+    "LapNumber": 1,
+    "DriverName": "Lucas Mitchell",
+    "Simulator": "ACC",
+    "TrackName": "Red Bull Ring",
+    "LayoutName": "",
+    "LapTime": "00:01:33.8720000",
+    "Sector1Time": "00:00:24.3220000",
+    "Sector2Time": "00:00:40.6800000",
+    "Sector3Time": "00:00:28.8380000",
+    "SessionIdentifier": "24-10-15-19-41-Red Bull Ring-Practice-807e2247-5107-4b39-ac57-4f9c5f235140",
+    "LapTimeSeconds": 93.872,
+    "Sector1TimeSeconds": 24.322,
+    "Sector2TimeSeconds": 40.68,
+    "Sector3TimeSeconds": 28.837999999999997,
+    "Stint": 1,
+    "FileName": "Lucas Mitchell-1--a48fb1a4-2427-4f67-b03b-8ff81f77ad55",
+    "IsPlayer": true,
+    "CustomDisplayName": null,
+    "LayoutLength": 4318.0
+  },
+  "DataPoints": [
+    {
+      "LapTime": "00:00:00.0650000",
+      "LapTimeSeconds": 0.065,
+      "PlayerData": {
+        "DriverShortName": "Lucas Mitchell",
+        "CarName": "McLaren 720S GT3 Evo 2023",
+        "CarClassName": "GT3",
+        "CarClassId": "ACC-GT3",
+        "IsSafetyCar": false,
+        "TeamName": "ChihayaAnon",
+        "CarRaceNumber": 51,
+        "IsCarRaceNumberFilled": true,
+        "CompletedLaps": 0,
+        "InPits": false,
+        "PitStopRequested": false,
+        "IsPlayer": true,
+        "Position": 1,
+        "PositionInClass": 1,
+        "CurrentLapValid": true,
+        "LapDistance": 0.0,
+        "TotalDistance": 0.0,
+        "DistanceToPlayer": 0.0,
+        "IsBeingLappedByPlayer": false,
+        "IsLappingPlayer": false,
+        "FinishStatus": 1,
+        "CarInfo": {
+          "WheelsInfo": {
+            "AllWheels": [
+              {
+                "Rps": 164.87454223632813,
+                "SuspensionTravel": {
+                  "InMeters": 0.01427826564759016
+                },
+                "RideHeight": {
+                  "InMeters": 0.0
+                },
+                "BrakeTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 36.340644836425781
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 375.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 125.0
+                  }
+                },
+                "TyrePressure": {
+                  "ActualQuantity": {
+                    "InKpa": 170.63190210499926
+                  },
+                  "IdealQuantity": {
+                    "InKpa": 188.50232352900619
+                  },
+                  "IdealQuantityWindow": {
+                    "InKpa": 2.0684234476482026
+                  }
+                },
+                "TyreType": "DRY",
+                "TyreWear": {
+                  "ActualWear": 0.0,
+                  "NoWearWearLimit": 0.03,
+                  "LightWearLimit": 0.25,
+                  "HeavyWearLimit": 0.7
+                },
+                "Detached": false,
+                "DirtLevel": 0.0,
+                "LeftTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 70.412811279296875
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "RightTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 70.412811279296875
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "CenterTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 70.412811279296875
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "TyreCoreTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 70.412811279296875
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "SuspensionVelocity": {
+                  "InMs": 0.020880123530386908
+                },
+                "Camber": {
+                  "InDegrees": 0.0,
+                  "IsZero": false,
+                  "RawValue": 0.0
+                },
+                "TyreLoad": {
+                  "InNewtons": 0.0
+                },
+                "Slip": 0.0,
+                "TyreVisualType": "DRY",
+                "BrakesDamage": {
+                  "Damage": 2.940495808919271E-06,
+                  "MediumDamageThreshold": 0.05,
+                  "HeavyDamageThreshold": 0.25
+                },
+                "WheelKind": 0,
+                "TyreSet": 2,
+                "TyreCompoundWithSet": "DRY 2"
+              },
+              {
+                "Rps": 164.67665100097656,
+                "SuspensionTravel": {
+                  "InMeters": 0.013743697665631771
+                },
+                "RideHeight": {
+                  "InMeters": 0.0
+                },
+                "BrakeTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 36.270782470703125
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 375.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 125.0
+                  }
+                },
+                "TyrePressure": {
+                  "ActualQuantity": {
+                    "InKpa": 173.52655134838989
+                  },
+                  "IdealQuantity": {
+                    "InKpa": 188.50232352900619
+                  },
+                  "IdealQuantityWindow": {
+                    "InKpa": 2.0684234476482026
+                  }
+                },
+                "TyreType": "DRY",
+                "TyreWear": {
+                  "ActualWear": 0.0,
+                  "NoWearWearLimit": 0.03,
+                  "LightWearLimit": 0.25,
+                  "HeavyWearLimit": 0.7
+                },
+                "Detached": false,
+                "DirtLevel": 0.0,
+                "LeftTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 69.577766418457031
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "RightTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 69.577766418457031
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "CenterTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 69.577766418457031
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "TyreCoreTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 69.577766418457031
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "SuspensionVelocity": {
+                  "InMs": 0.015053550205641678
+                },
+                "Camber": {
+                  "InDegrees": 0.0,
+                  "IsZero": false,
+                  "RawValue": 0.0
+                },
+                "TyreLoad": {
+                  "InNewtons": 0.0
+                },
+                "Slip": 0.0,
+                "TyreVisualType": "DRY",
+                "BrakesDamage": {
+                  "Damage": 2.86102294921875E-06,
+                  "MediumDamageThreshold": 0.05,
+                  "HeavyDamageThreshold": 0.25
+                },
+                "WheelKind": 1,
+                "TyreSet": 2,
+                "TyreCompoundWithSet": "DRY 2"
+              },
+              {
+                "Rps": 162.63067626953125,
+                "SuspensionTravel": {
+                  "InMeters": 0.026421608403325081
+                },
+                "RideHeight": {
+                  "InMeters": 0.0
+                },
+                "BrakeTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 34.287059783935547
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 375.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 125.0
+                  }
+                },
+                "TyrePressure": {
+                  "ActualQuantity": {
+                    "InKpa": 168.89922083205806
+                  },
+                  "IdealQuantity": {
+                    "InKpa": 188.50232352900619
+                  },
+                  "IdealQuantityWindow": {
+                    "InKpa": 2.0684234476482026
+                  }
+                },
+                "TyreType": "DRY",
+                "TyreWear": {
+                  "ActualWear": 0.0,
+                  "NoWearWearLimit": 0.03,
+                  "LightWearLimit": 0.25,
+                  "HeavyWearLimit": 0.7
+                },
+                "Detached": false,
+                "DirtLevel": 0.0,
+                "LeftTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.961715698242188
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "RightTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.961715698242188
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "CenterTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.961715698242188
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "TyreCoreTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.961715698242188
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "SuspensionVelocity": {
+                  "InMs": 0.0084394754903378191
+                },
+                "Camber": {
+                  "InDegrees": 0.0,
+                  "IsZero": false,
+                  "RawValue": 0.0
+                },
+                "TyreLoad": {
+                  "InNewtons": 0.0
+                },
+                "Slip": 0.0,
+                "TyreVisualType": "DRY",
+                "BrakesDamage": {
+                  "Damage": 3.8941701253255206E-06,
+                  "MediumDamageThreshold": 0.05,
+                  "HeavyDamageThreshold": 0.25
+                },
+                "WheelKind": 2,
+                "TyreSet": 2,
+                "TyreCompoundWithSet": "DRY 2"
+              },
+              {
+                "Rps": 162.63067626953125,
+                "SuspensionTravel": {
+                  "InMeters": 0.026036344468593597
+                },
+                "RideHeight": {
+                  "InMeters": 0.0
+                },
+                "BrakeTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 34.265800476074219
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 375.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 125.0
+                  }
+                },
+                "TyrePressure": {
+                  "ActualQuantity": {
+                    "InKpa": 172.51108197671823
+                  },
+                  "IdealQuantity": {
+                    "InKpa": 188.50232352900619
+                  },
+                  "IdealQuantityWindow": {
+                    "InKpa": 2.0684234476482026
+                  }
+                },
+                "TyreType": "DRY",
+                "TyreWear": {
+                  "ActualWear": 0.0,
+                  "NoWearWearLimit": 0.03,
+                  "LightWearLimit": 0.25,
+                  "HeavyWearLimit": 0.7
+                },
+                "Detached": false,
+                "DirtLevel": 0.0,
+                "LeftTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.168563842773438
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "RightTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.168563842773438
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "CenterTyreTemp": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.168563842773438
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "TyreCoreTemperature": {
+                  "ActualQuantity": {
+                    "InCelsius": 71.168563842773438
+                  },
+                  "IdealQuantity": {
+                    "InCelsius": 83.0
+                  },
+                  "IdealQuantityWindow": {
+                    "InCelsius": 7.0
+                  }
+                },
+                "SuspensionVelocity": {
+                  "InMs": 0.0046198399846690656
+                },
+                "Camber": {
+                  "InDegrees": 0.0,
+                  "IsZero": false,
+                  "RawValue": 0.0
+                },
+                "TyreLoad": {
+                  "InNewtons": 0.0
+                },
+                "Slip": 0.0,
+                "TyreVisualType": "DRY",
+                "BrakesDamage": {
+                  "Damage": 3.814697265625E-06,
+                  "MediumDamageThreshold": 0.05,
+                  "HeavyDamageThreshold": 0.25
+                },
+                "WheelKind": 3,
+                "TyreSet": 2,
+                "TyreCompoundWithSet": "DRY 2"
+              }
+            ],
+            "FrontLeft": {
+              "Rps": 164.87454223632813,
+              "SuspensionTravel": {
+                "InMeters": 0.01427826564759016
+              },
+              "RideHeight": {
+                "InMeters": 0.0
+              },
+              "BrakeTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 36.340644836425781
+                },
+                "IdealQuantity": {
+                  "InCelsius": 375.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 125.0
+                }
+              },
+              "TyrePressure": {
+                "ActualQuantity": {
+                  "InKpa": 170.63190210499926
+                },
+                "IdealQuantity": {
+                  "InKpa": 188.50232352900619
+                },
+                "IdealQuantityWindow": {
+                  "InKpa": 2.0684234476482026
+                }
+              },
+              "TyreType": "DRY",
+              "TyreWear": {
+                "ActualWear": 0.0,
+                "NoWearWearLimit": 0.03,
+                "LightWearLimit": 0.25,
+                "HeavyWearLimit": 0.7
+              },
+              "Detached": false,
+              "DirtLevel": 0.0,
+              "LeftTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 70.412811279296875
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "RightTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 70.412811279296875
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "CenterTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 70.412811279296875
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "TyreCoreTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 70.412811279296875
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "SuspensionVelocity": {
+                "InMs": 0.020880123530386908
+              },
+              "Camber": {
+                "InDegrees": 0.0,
+                "IsZero": false,
+                "RawValue": 0.0
+              },
+              "TyreLoad": {
+                "InNewtons": 0.0
+              },
+              "Slip": 0.0,
+              "TyreVisualType": "DRY",
+              "BrakesDamage": {
+                "Damage": 2.940495808919271E-06,
+                "MediumDamageThreshold": 0.05,
+                "HeavyDamageThreshold": 0.25
+              },
+              "WheelKind": 0,
+              "TyreSet": 2,
+              "TyreCompoundWithSet": "DRY 2"
+            },
+            "FrontRight": {
+              "Rps": 164.67665100097656,
+              "SuspensionTravel": {
+                "InMeters": 0.013743697665631771
+              },
+              "RideHeight": {
+                "InMeters": 0.0
+              },
+              "BrakeTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 36.270782470703125
+                },
+                "IdealQuantity": {
+                  "InCelsius": 375.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 125.0
+                }
+              },
+              "TyrePressure": {
+                "ActualQuantity": {
+                  "InKpa": 173.52655134838989
+                },
+                "IdealQuantity": {
+                  "InKpa": 188.50232352900619
+                },
+                "IdealQuantityWindow": {
+                  "InKpa": 2.0684234476482026
+                }
+              },
+              "TyreType": "DRY",
+              "TyreWear": {
+                "ActualWear": 0.0,
+                "NoWearWearLimit": 0.03,
+                "LightWearLimit": 0.25,
+                "HeavyWearLimit": 0.7
+              },
+              "Detached": false,
+              "DirtLevel": 0.0,
+              "LeftTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 69.577766418457031
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "RightTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 69.577766418457031
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "CenterTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 69.577766418457031
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "TyreCoreTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 69.577766418457031
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "SuspensionVelocity": {
+                "InMs": 0.015053550205641678
+              },
+              "Camber": {
+                "InDegrees": 0.0,
+                "IsZero": false,
+                "RawValue": 0.0
+              },
+              "TyreLoad": {
+                "InNewtons": 0.0
+              },
+              "Slip": 0.0,
+              "TyreVisualType": "DRY",
+              "BrakesDamage": {
+                "Damage": 2.86102294921875E-06,
+                "MediumDamageThreshold": 0.05,
+                "HeavyDamageThreshold": 0.25
+              },
+              "WheelKind": 1,
+              "TyreSet": 2,
+              "TyreCompoundWithSet": "DRY 2"
+            },
+            "RearLeft": {
+              "Rps": 162.63067626953125,
+              "SuspensionTravel": {
+                "InMeters": 0.026421608403325081
+              },
+              "RideHeight": {
+                "InMeters": 0.0
+              },
+              "BrakeTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 34.287059783935547
+                },
+                "IdealQuantity": {
+                  "InCelsius": 375.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 125.0
+                }
+              },
+              "TyrePressure": {
+                "ActualQuantity": {
+                  "InKpa": 168.89922083205806
+                },
+                "IdealQuantity": {
+                  "InKpa": 188.50232352900619
+                },
+                "IdealQuantityWindow": {
+                  "InKpa": 2.0684234476482026
+                }
+              },
+              "TyreType": "DRY",
+              "TyreWear": {
+                "ActualWear": 0.0,
+                "NoWearWearLimit": 0.03,
+                "LightWearLimit": 0.25,
+                "HeavyWearLimit": 0.7
+              },
+              "Detached": false,
+              "DirtLevel": 0.0,
+              "LeftTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 71.961715698242188
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "RightTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 71.961715698242188
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "CenterTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 71.961715698242188
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "TyreCoreTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 71.961715698242188
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "SuspensionVelocity": {
+                "InMs": 0.0084394754903378191
+              },
+              "Camber": {
+                "InDegrees": 0.0,
+                "IsZero": false,
+                "RawValue": 0.0
+              },
+              "TyreLoad": {
+                "InNewtons": 0.0
+              },
+              "Slip": 0.0,
+              "TyreVisualType": "DRY",
+              "BrakesDamage": {
+                "Damage": 3.8941701253255206E-06,
+                "MediumDamageThreshold": 0.05,
+                "HeavyDamageThreshold": 0.25
+              },
+              "WheelKind": 2,
+              "TyreSet": 2,
+              "TyreCompoundWithSet": "DRY 2"
+            },
+            "RearRight": {
+              "Rps": 162.63067626953125,
+              "SuspensionTravel": {
+                "InMeters": 0.026036344468593597
+              },
+              "RideHeight": {
+                "InMeters": 0.0
+              },
+              "BrakeTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 34.265800476074219
+                },
+                "IdealQuantity": {
+                  "InCelsius": 375.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 125.0
+                }
+              },
+              "TyrePressure": {
+                "ActualQuantity": {
+                  "InKpa": 172.51108197671823
+                },
+                "IdealQuantity": {
+                  "InKpa": 188.50232352900619
+                },
+                "IdealQuantityWindow": {
+                  "InKpa": 2.0684234476482026
+                }
+              },
+              "TyreType": "DRY",
+              "TyreWear": {
+                "ActualWear": 0.0,
+                "NoWearWearLimit": 0.03,
+                "LightWearLimit": 0.25,
+                "HeavyWearLimit": 0.7
+              },
+              "Detached": false,
+              "DirtLevel": 0.0,
+              "LeftTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 71.168563842773438
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "RightTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 71.168563842773438
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "CenterTyreTemp": {
+                "ActualQuantity": {
+                  "InCelsius": 71.168563842773438
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "TyreCoreTemperature": {
+                "ActualQuantity": {
+                  "InCelsius": 71.168563842773438
+                },
+                "IdealQuantity": {
+                  "InCelsius": 83.0
+                },
+                "IdealQuantityWindow": {
+                  "InCelsius": 7.0
+                }
+              },
+              "SuspensionVelocity": {
+                "InMs": 0.0046198399846690656
+              },
+              "Camber": {
+                "InDegrees": 0.0,
+                "IsZero": false,
+                "RawValue": 0.0
+              },
+              "TyreLoad": {
+                "InNewtons": 0.0
+              },
+              "Slip": 0.0,
+              "TyreVisualType": "DRY",
+              "BrakesDamage": {
+                "Damage": 3.814697265625E-06,
+                "MediumDamageThreshold": 0.05,
+                "HeavyDamageThreshold": 0.25
+              },
+              "WheelKind": 3,
+              "TyreSet": 2,
+              "TyreCompoundWithSet": "DRY 2"
+            },
+            "IsRideHeightFilled": false
+          },
+          "OilSystemInfo": {
+            "OptimalOilTemperature": {
+              "ActualQuantity": {
+                "InCelsius": 73.6899642944336
+              },
+              "IdealQuantity": {
+                "InCelsius": 110.0
+              },
+              "IdealQuantityWindow": {
+                "InCelsius": 15.0
+              }
+            },
+            "OilPressure": {
+              "InKpa": 0.0
+            }
+          },
+          "FuelSystemInfo": {
+            "FuelCapacity": {
+              "InLiters": 120.0
+            },
+            "FuelRemaining": {
+              "InLiters": 39.598213195800781
+            },
+            "FuelPressure": {
+              "InKpa": 0.0
+            },
+            "VirtualTank": {
+              "InRatio": 0.0
+            },
+            "HasVirtualTank": false
+          },
+          "WaterSystemInfo": {
+            "OptimalWaterTemperature": {
+              "ActualQuantity": {
+                "InCelsius": 73.6899642944336
+              },
+              "IdealQuantity": {
+                "InCelsius": 90.0
+              },
+              "IdealQuantityWindow": {
+                "InCelsius": 10.0
+              }
+            },
+            "WaterPressure": {
+              "InKpa": 0.0
+            }
+          },
+          "Acceleration": {
+            "XinMs": -0.75163840651512148,
+            "YinMs": 1.1657658025622368,
+            "ZinMs": 2.4286164790391922
+          },
+          "FrontHeight": {
+            "InMeters": 0.0
+          },
+          "RearHeight": {
+            "InMeters": 0.0
+          },
+          "CurrentGear": "4",
+          "EngineRpm": 7021,
+          "TurboPressure": {
+            "InKpa": 50.219162040948866
+          },
+          "SpeedLimiterEngaged": false,
+          "CarDamageInformation": {
+            "Engine": {
+              "Damage": 0.0,
+              "MediumDamageThreshold": 0.05,
+              "HeavyDamageThreshold": 0.25
+            },
+            "Transmission": {
+              "Damage": 0.0,
+              "MediumDamageThreshold": 0.05,
+              "HeavyDamageThreshold": 0.25
+            },
+            "Suspension": {
+              "Damage": 0.0,
+              "MediumDamageThreshold": 0.08,
+              "HeavyDamageThreshold": 0.25
+            },
+            "Bodywork": {
+              "Damage": 0.0,
+              "MediumDamageThreshold": 0.04,
+              "HeavyDamageThreshold": 0.13
+            },
+            "Clutch": {
+              "Temperature": {
+                "InCelsius": -1.0
+              },
+              "Damage": 0.0,
+              "MediumDamageThreshold": 0.05,
+              "HeavyDamageThreshold": 0.25
+            }
+          },
+          "DrsSystem": {
+            "DrsStatus": 0,
+            "DrsActivationLeft": -1
+          },
+          "BoostSystem": {
+            "BoostStatus": 0,
+            "CooldownTimer": "00:00:00",
+            "TimeRemaining": "00:00:00",
+            "ActivationsRemaining": -1
+          },
+          "OverallDownForce": {
+            "InNewtons": 0.0
+          },
+          "FrontDownForce": {
+            "InNewtons": 0.0
+          },
+          "RearDownForce": {
+            "InNewtons": 0.0
+          },
+          "FrontRollAngle": {
+            "InDegrees": 0.0,
+            "IsZero": true,
+            "RawValue": 0.0
+          },
+          "RearRollAngle": {
+            "InDegrees": 0.0,
+            "IsZero": true,
+            "RawValue": 0.0
+          },
+          "WorldOrientation": {
+            "Roll": {
+              "InDegrees": -1.5106716716040149,
+              "IsZero": false,
+              "RawValue": -1.5106716716040149
+            },
+            "Pitch": {
+              "InDegrees": 0.12819632587909716,
+              "IsZero": false,
+              "RawValue": 0.12819632587909716
+            },
+            "Yaw": {
+              "InDegrees": 73.563366626182741,
+              "IsZero": false,
+              "RawValue": 73.563366626182741
+            }
+          },
+          "EnginePower": {
+            "InKw": 0.0,
+            "InHorsePower": 0.0,
+            "IsZero": true,
+            "RawValue": 0.0
+          },
+          "EngineTorque": {
+            "IsZero": true,
+            "RawValue": 0.0,
+            "InNm": 0.0,
+            "InPoundFeet": 0.0
+          },
+          "HeadLightsStatus": 1,
+          "AbsInfo": {
+            "IsAvailable": true,
+            "IsActive": false,
+            "Remark": "3"
+          },
+          "TcInfo": {
+            "IsAvailable": true,
+            "IsActive": false,
+            "Remark": "4 / 4"
+          },
+          "HybridSystem": {
+            "HybridSystemMode": 0,
+            "HybridChargeChange": 0,
+            "RemainingChargePercentage": 0.0,
+            "RemainingPerLapChargePercentage": null,
+            "IsElectricOnly": false
+          }
+        },
+        "Timing": {
+          "GapAhead": "00:00:00",
+          "GapBehind": "00:00:00",
+          "GapToPlayer": "00:00:00",
+          "LastLapTime": "24.20:31:23.6470000",
+          "CurrentLapTime": "00:00:00.0650000",
+          "CurrentSector": 1,
+          "CurrentSectorTime": "00:00:00.0650000",
+          "LastSector1Time": "00:00:00.0650000",
+          "LastSector2Time": "-00:00:00.0650000",
+          "LastSector3Time": "00:00:00",
+          "BestLapTime": "00:00:00",
+          "BestLapTimeNumber": -1
+        },
+        "WorldPosition": {
+          "X": {
+            "InMeters": 364.9278564453125
+          },
+          "Y": {
+            "InMeters": 665.2276611328125
+          },
+          "Z": {
+            "InMeters": 282.93692016601563
+          }
+        },
+        "DriverDebugInfo": {
+          "DistanceToPits": 0.0
+        },
+        "Speed": {
+          "InMs": 56.111111111111107
+        },
+        "IsCausingYellow": false,
+        "DriverSessionId": "Lucas Mitchell0",
+        "DriverLongName": "Lucas Mitchell",
+        "RatingInfo": {
+          "Rating": 0,
+          "IsFilled": false,
+          "RacesCompleted": 0,
+          "Reputation": 0.0
+        },
+        "StintTimeLeft": "-00:00:01.0550000"
+      },
+      "WeatherInfo": {
+        "AirTemperature": {
+          "InCelsius": 30.0
+        },
+        "TrackTemperature": {
+          "InCelsius": 37.0
+        },
+        "RainIntensity": 0,
+        "TrackWetness": 0,
+        "WindDirectionFrom": 430.0928955078125,
+        "WindSpeed": {
+          "InMs": 0.35148945119645858
+        },
+        "HasWindInformation": true
+      },
+      "InputInfo": {
+        "BrakePedalPosition": 0.0,
+        "ThrottlePedalPosition": 1.0,
+        "ClutchPedalPosition": 0.0,
+        "SteeringInput": 0.0061874999664723873,
+        "WheelAngle": 1.6706249909475446,
+        "WheelAngleFilled": true
+      },
+      "SimulatorSourceInfo": {
+        "HasLapTimeInformation": true,
+        "SectorTimingSupport": 3,
+        "SimNotReportingEndOfOutLapCorrectly": true,
+        "AIInstantFinish": false,
+        "OutLapIsValid": false,
+        "InvalidateLapBySector": false,
+        "ForceLapOverTime": true,
+        "GlobalTyreCompounds": false,
+        "WorldPositionInvalid": false,
+        "TimeInterpolated": false,
+        "NAStateBetweenSessions": false,
+        "GapInformationProvided": 0,
+        "HasRewindFunctionality": false,
+        "OverrideBestLap": false,
+        "TelemetryInfo": {
+          "RequiresDistanceInterpolation": false,
+          "RequiresPositionInterpolation": false,
+          "ContainsSuspensionVelocity": true,
+          "ContainsSuspensionTravel": true,
+          "ContainsOptimalTemperatures": false,
+          "ContainsSlipInformation": false,
+          "ContainsWheelRps": true,
+          "ContainsTyreLoad": true,
+          "ContainsOverallDownforce": false,
+          "ContainsFrontRearDownforce": false,
+          "IsSuspensionTravelInverted": false
+        }
+      }
+    }
+  ],
+  "Version": 2,
+  "CarPropertiesDto": null
+}
